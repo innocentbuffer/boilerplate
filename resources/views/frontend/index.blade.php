@@ -251,7 +251,7 @@
     <img src="images/items/footerimg.png" alt="" style="width:100%;position: absolute;height: 100%;">
         <div class="footer-text"> 
             <div class="row mx-0">
-                <div class="col-md-5 footerlogo">
+                <div class="col-md-5 pl-1 pl-md-5 footerlogo">
                     <img src="images/logo/logofooter.png" class="float-left" alt="" style="width:64px">
                     <p class="footerlogoname pt-4">BlueSparrow</p>
                 </div>
