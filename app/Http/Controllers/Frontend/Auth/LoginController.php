@@ -9,6 +9,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use LangleyFoxall\LaravelNISTPasswordRules\PasswordRules;
+use App\Model\Auth\User;
+
 
 /**
  * Class LoginController.

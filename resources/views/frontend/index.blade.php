@@ -135,31 +135,23 @@
         <section class="other-section">
             <div class="wavedown">
                 <img src="images/items/wavedown.png" class="wavedown-img" alt="">
-            </div>
-            <div class="trusted">
-                <p class="mt-3">Loved by</p>
-                <div class="">
-                    <ul class="list-inline">
-                        <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/spinlet.png" style="width:15%" alt=""></li>
-                        <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
-                        <li class="list-inline-item px-2 px-md-4 d-inline"><img src="images/loved/disrupt.png" style="width:15%" alt=""></li>
-                        <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
-                        <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
-                    </ul>
+                <div class="trusted">
+                    <p class="mt-3">Loved by</p>
+                    <div class="">
+                        <ul class="list-inline">
+                            <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/spinlet.png" style="width:15%" alt=""></li>
+                            <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
+                            <li class="list-inline-item px-2 px-md-4 d-inline"><img src="images/loved/disrupt.png" style="width:15%" alt=""></li>
+                            <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
+                            <li class="list-inline-item px-0 px-md-4 d-inline"><img src="images/loved/softcom.png" style="width:15%" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            
             <div class="doublewave">
                 <img src="images/items/doublewave.png" class="doublewave-img" alt="">
             </div>
-            <!--
-            <div class="halfwave">
-                <img src="images/items/halfwave.png" class="halfwave-img" alt="">
-            </div>
-            
-            <div class="journey">
-                <button class="btn d-block mx-auto bg-white">Start your journey</button>
-            </div>
-            -->
             <div class="goldlibrary d-none d-md-block">
                 <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:30%;display:block" alt="">
                 <div class="goldjourney">
