@@ -8,7 +8,6 @@ use App\Exceptions\GeneralException;
 use App\Models\Auth\SocialAccount;
 use App\Models\Auth\User;
 use App\Notifications\Frontend\Auth\UserNeedsConfirmation;
-use App\Notifications\Frontend\Auth\UserNeedsConfirm;
 use App\Repositories\BaseRepository;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
@@ -18,7 +17,7 @@ use Illuminate\Support\Facades\Storage;
 /**
  * Class UserRepository.
  */
-class UserRepository extends BaseRepository
+class UserRepo extends BaseRepository
 {
     /**
      * UserRepository constructor.
@@ -44,15 +43,6 @@ class UserRepository extends BaseRepository
         }
 
         return false;
-    }
-
-    public function findByEmail($email)
-    {
-        $user = $this->model::where('email', $email)->first();
-
-       
-        return $user;
-       
     }
 
     /**
@@ -126,18 +116,10 @@ class UserRepository extends BaseRepository
              *
              * If this is a social account they are confirmed through the social provider by default
              */
-            if(isset($data['first_name'])){
-                if (config('access.users.confirm_email')) {
-                    // Pretty much only if account approval is off, confirm email is on, and this isn't a social account.
-                    $user->notify(new UserNeedsConfirmation($user->confirmation_code));
-                }
-            }else{
-                if (config('access.users.confirm_email')) {
-                    // Pretty much only if account approval is off, confirm email is on, and this isn't a social account.
-                    $user->notify(new UserNeedsConfirm($user->confirmation_code));
-                }
+            if (config('access.users.confirm_email')) {
+                // Pretty much only if account approval is off, confirm email is on, and this isn't a social account.
+                $user->notify(new UserNeedsConfirmation($user->confirmation_code));
             }
-            
 
             // Return the user object
             return $user;

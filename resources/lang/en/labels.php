@@ -134,6 +134,8 @@ return [
             'forgot_password' => 'Forgot Your Password?',
             'reset_password_box_title' => 'Reset Password',
             'reset_password_button' => 'Reset Password',
+            'set_password_box_title' => 'Set Password',
+            'set_password_button' => 'Set Password',
             'update_password_button' => 'Update Password',
             'send_password_reset_link_button' => 'Send Password Reset Link',
         ],

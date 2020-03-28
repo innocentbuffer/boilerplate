@@ -27,7 +27,7 @@
         <main>
             <div class="loginsection">
                 <div class="row h-100 mx-0">
-                    <div class="col-md-5 bg-white pl-4">
+                    <div class="col-md-6 bg-white pl-5 pr-5">
                         <div class="card border-0 logform">
                             <div class="card-header border-0 bg-white d-flex justify-content-center">
                                 <a class="text-white" href="{{ url('/') }}">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 d-none d-md-block logbanner">
+                    <div class="col-md-6 d-none d-md-block logbanner">
 
                     </div>
                 </div>
