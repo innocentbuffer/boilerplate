@@ -80,28 +80,31 @@
             <div class="wave2">
                 <img src="images/items/wave2.png" alt="">
                 <div class="form-home">
-                    <form action="">
+                    
                         <div class="row mx-0">
                             <div class="col-md-6 0ffset-md-6 pl-4">
-                                <div class="row mx-0">
-                                    <div class="col-8">
-                                        <form action="">
+                                <form method="POST" action="{{route('frontend.auth.register.post')}}" >
+                                    @csrf
+                                    <div class="row mx-0">
+                                        <div class="col-8">
+                                            
                                             <div class="form-group">
                                                 <label for=""><strong> Sign up here</strong></label>
-                                                <input type="email" name="" id="" class="form-control shadow" placeholder="Email address" style="height:50px; border-top-left-radius: 8px; border-bottom-left-radius: 8px;">
+                                                <input type="email" name="email" id="" class="form-control shadow" placeholder="Email address" style="height:50px; border-top-left-radius: 8px; border-bottom-left-radius: 8px;">
                                             </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-4 pl-0">
-                                        <div class="form-group">
-                                            <button type="submit" class="home-form-btn" style="height:50px">Send</button>
+                                            
+                                        </div>
+                                        <div class="col-4 pl-0">
+                                            <div class="form-group">
+                                                <button type="submit" class="home-form-btn" style="height:50px">Send</button>
+                                            </div> 
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
-                    </form>
+                   
                 </div>
             </div>
             <!--

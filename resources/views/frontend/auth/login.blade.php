@@ -40,7 +40,7 @@
                                     @csrf
 
                                     <div class="form-group mb-4">
-
+                                        
                                         <div class="">
                                             <input id="email" type="email" placeholder="Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 

@@ -94,12 +94,12 @@ class UserRepository extends BaseRepository
     {
         return DB::transaction(function () use ($data) {
             $user = $this->model::create([
-                'first_name' => $data['first_name'],
-                'last_name' => $data['last_name'],
+                //'first_name' => $data['first_name'],
+                //'last_name' => $data['last_name'],
                 'email' => $data['email'],
                 'confirmation_code' => md5(uniqid(mt_rand(), true)),
-                'active' => true,
-                'password' => $data['password'],
+                'active' => false,
+                //'password' => $data['password'],
                 // If users require approval or needs to confirm email
                 'confirmed' => ! (config('access.users.requires_approval') || config('access.users.confirm_email')),
             ]);

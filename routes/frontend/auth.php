@@ -42,6 +42,7 @@ Route::group(['namespace' => 'Auth', 'as' => 'auth.'], function () {
         // Registration Routes
         Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
         Route::post('register', [RegisterController::class, 'register'])->name('register.post');
+        
 
         // Confirm Account Routes
         Route::get('account/confirm/{token}', [ConfirmAccountController::class, 'confirm'])->name('account.confirm');
