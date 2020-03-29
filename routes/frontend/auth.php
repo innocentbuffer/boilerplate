@@ -42,6 +42,7 @@ Route::group(['namespace' => 'Auth', 'as' => 'auth.'], function () {
         // Registration Routes
         Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
         Route::post('register', [RegisterController::class, 'register'])->name('register.post');
+        Route::post('profile/setup', [RegisterController::class, 'profile'])->name('profile.setup');
         
 
         // Confirm Account Routes

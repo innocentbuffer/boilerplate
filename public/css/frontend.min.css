@@ -235,6 +235,12 @@ label{
     border-radius: 22px 22px;
     font-size: 18px;
 }
+.start-journey-setpassword{
+    background-color: #0a0337;
+    border: 0px;
+    border-radius: 10px 10px;
+    font-size: 18px;
+}
 
 .logbanner{
     background:  url("../images/banner/logbanner.png") no-repeat center;

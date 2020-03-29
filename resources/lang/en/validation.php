@@ -195,7 +195,7 @@ return [
             'last_name' => 'Last Name',
             'name' => 'Full Name',
             'password' => 'Password',
-            'password_confirmation' => 'Password Confirmation',
+            'password_confirmation' => 'Confirm Password',
             'phone' => 'Phone',
             'message' => 'Message',
             'new_password' => 'New Password',

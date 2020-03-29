@@ -24,7 +24,8 @@ return [
         'admin_role' => 'administrator',
 
         // The default role all new registered users get added to
-        'default_role' => 'user',
+        //'default_role' => 'user',
+        'default_role' => 'Publisher',
 
         /*
          * Whether or not new users need to be approved by an administrator before logging in

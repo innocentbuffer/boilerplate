@@ -132,8 +132,8 @@ class ResetPasswordController extends Controller
         // If the password was successfully reset, we will redirect the user back to
         // the application's home authenticated view. If there is an error we can
         // redirect them back to where they came from with their error message.
-        if(Auth::check()){
-            return view("frontend.auth.profile");
+        if($state){
+            return view("frontend.auth.profile", ['email'=>$request->email]);
         }else{
             return redirect()->back();
         }
@@ -166,17 +166,13 @@ class ResetPasswordController extends Controller
 
         $user->password_changed_at = now();
 
-        $user->active = 1;
-
-        $user->confirmed = 1;
-
         $user->setRememberToken(Str::random(60));
 
         $user->save();
 
         event(new PasswordReset($user));
+        return true;
 
-        $this->guard()->login($user);
     }
 
     /**
