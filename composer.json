@@ -61,9 +61,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "laravel/dusk"
-            ]
+            "dont-discover": []
         }
     },
     "minimum-stability": "dev",
