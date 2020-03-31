@@ -11,7 +11,7 @@
  * @see https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Illuminate\Support\Facades;
+namespace Illuminate\Support\Facades { 
 
     /**
      * 
@@ -1620,7 +1620,7 @@ namespace Illuminate\Support\Facades;
         {
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
                         /** @var \App\Console\Kernel $instance */
-                        return $instance->bootstrap();
+                        $instance->bootstrap();
         }
         
         /**
@@ -1634,7 +1634,7 @@ namespace Illuminate\Support\Facades;
         {
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
                         /** @var \App\Console\Kernel $instance */
-                        return $instance->setArtisan($artisan);
+                        $instance->setArtisan($artisan);
         }
          
     }
