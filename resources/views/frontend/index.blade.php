@@ -294,7 +294,7 @@
                     <div class="goldlibrary d-none d-md-block">
                         <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:50%;display:block" alt="">
                         <div class="goldjourney">
-                            <button class="btn d-block mx-auto bg-white goldjourney-btn p-3 shadow-lg">Start your journey</button>
+                            <button class="btn d-block mx-auto bg-white goldjourney-btn py-3 px-5 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                     <div class="bronzelibrary d-none d-md-block">
