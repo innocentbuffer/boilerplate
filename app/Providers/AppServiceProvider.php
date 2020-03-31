@@ -21,8 +21,6 @@ class AppServiceProvider extends ServiceProvider
             /**
              * Loader for registering facades.
              */
-            $this->app->register(IdeHelperServiceProvider::class);
-
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
 
             // Load third party local aliases
