@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
 
             // Load third party local aliases
-            $loader->alias('Debugbar', \Barryvdh\Debugbar\Facade::class);
+            //$loader->alias('Debugbar', \Barryvdh\Debugbar\Facade::class);
         }
     }
 
