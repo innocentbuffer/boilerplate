@@ -273,18 +273,27 @@
                 <div class="forsm">
                     <div class="goldlibrary-mobile d-block d-md-none">
                         <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:100%;display:block" alt="">
+                        <div class="goldsubscription-mobile">
+                            <h3 class="text-center">Gold Library</h3>
+                        </div>
                         <div class="goldjourney-mobile">
                             <button class="btn d-block mx-auto bg-white goldjourney-btn p-3 shadow">Start your journey</button>
                         </div>
                     </div>
                     <div class="bronzelibrary-mobile d-block d-md-none">
                         <img src="images/items/library.png" class="bronzelibrary-img mx-auto" style="width:100%" alt="">
+                        <div class="bronzesubscription-mobile">
+                            <h3 class="text-center">Silver Library</h3>
+                        </div>
                         <div class="bronzejourney-mobile">
                             <button class="btn bg-white bronzejourney-btn-mobile d-block mx-auto p-3 shadow">Start your journey</button>
                         </div>
                     </div>
                     <div class="silverlibrary-mobile d-block d-md-none">
                         <img src="images/items/library.png" class="silverlibrary-img mx-auto" style="width:100%" alt="">
+                        <div class="silversubscription-mobile">
+                            <h3 class="text-center">Bronze Library</h3>
+                        </div>
                         <div class="silverjourney-mobile">
                             <button class="btn bg-white silverjourney-btn-mobile d-block mx-auto p-3 shadow">Start your journey</button>
                         </div>
@@ -293,18 +302,27 @@
                 <div class="formd">
                     <div class="goldlibrary d-none d-md-block">
                         <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:50%;display:block" alt="">
+                        <div class="goldsubscription">
+                            <h3 class="text-center">Gold Library</h3>
+                        </div>
                         <div class="goldjourney">
                             <button class="btn d-block mx-auto bg-white goldjourney-btn py-3 px-5 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                     <div class="bronzelibrary d-none d-md-block">
                         <img src="images/items/library.png" class="bronzelibrary-img" style="width:45%;margin-left:10px" alt="">
+                        <div class="bronzesubscription">
+                            <h3>Silver Library</h3>
+                        </div>
                         <div class="bronzejourney">
                             <button class="btn bg-white bronzejourney-btn p-3 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                     <div class="silverlibrary d-none d-md-block">
                         <img src="images/items/library.png" class="silverlibrary-img" style="width:45%;margin-left:55%" alt="">
+                        <div class="silversubscription">
+                            <h3>Bronze Library</h3>
+                        </div>
                         <div class="silverjourney">
                             <button class="btn bg-white silverjourney-btn p-3 shadow-lg">Start your journey</button>
                         </div>
@@ -345,7 +363,7 @@
                     <div class="commenter">
                         <img src="images/items/7.jpg" class="rounded-circle float-left" alt="" style="width:18%">
                         <div>
-                            <p class="commenter-info">CHRISTIANA ADEFARASIN<br>
+                            <p class="commenter-info"><strong>CHRISTIANA ADEFARASIN </strong><br>
                                 <span>Head of Innovative & Data (IrokoTV)</span>
                             </p>
                         </div>
@@ -362,7 +380,7 @@
                     <div class="commenter">
                         <img src="images/items/7.jpg" class="rounded-circle float-left" alt="" style="width:18%">
                         <div >
-                            <p class="commenter-info">KOLA AIDOGBON<br>
+                            <p class="commenter-info"><strong> KOLA AIDOGBON </strong><br>
                                 <span>Head of Innovative & Data (IrokoTV)</span>
                             </p>
                         </div>
@@ -399,8 +417,8 @@
                     <h6 class="mb-3"><strong> TERMS OF USE</strong></h6>
                     <ul class="list-inline">
                         <li>Cookies</li>
-                        <li class="pt-2">Polic</li>
-                        <li class="pt-2">terms and privacy</li>
+                        <li class="pt-2">Policy</li>
+                        <li class="pt-2">Terms and privacy</li>
                     </ul>
                 </div>
             </div>

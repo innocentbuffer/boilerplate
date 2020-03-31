@@ -308,6 +308,38 @@ label{
     padding-left: 26%;
 }
 
+.goldsubscription, .bronzesubscription, .silversubscription{
+    position: absolute;
+    z-index: 16;
+    width: 100%;
+    font-weight: 900;
+    color: #0a023a;
+}
+
+.goldsubscription-mobile, .bronzesubscription-mobile, .silversubscription-mobile{
+    position: absolute;
+    z-index: 16;
+    width: 100%;
+    font-weight: 900;
+    color: #0a023a;
+    top: 55px;
+}
+
+
+.goldsubscription{
+    top: 100px;
+}
+
+.bronzesubscription{
+    top: 100px;
+    margin-left: 15%;
+}
+
+.silversubscription{
+    top: 100px;
+    margin-left: 70%;
+}
+
 .commenter-info{
     padding-left: 80px;
     font-family: "Raleway";
