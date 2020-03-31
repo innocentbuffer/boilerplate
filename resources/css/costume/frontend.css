@@ -54,10 +54,13 @@
 .menutitle{
     position: relative;
     font-size: 18px;
-    top:13px;
+    top: 13px;
     padding-left: 66px;
     padding-right: 66px;
     border-radius: 50px;
+    padding: .5rem 1rem;
+    display: block;
+    color: white;
 }
 .menutitle1{
     position: relative;
@@ -90,7 +93,7 @@
 .wave2{
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: -2px;
     z-index: 16;
 }
 .wave2 img{
@@ -104,9 +107,8 @@
 .form-home{
     position: absolute;
     width: 100%;
-    bottom: 55px;
     z-index: 17;
-    top:120px
+    top:550px
 }
 
 .home-form-btn{
@@ -155,18 +157,13 @@ label{
 
 .other-section{
     position: relative;
-    height:100vh;
     background-color: #f2f2f2;
 }
 .other-section2{
     position: relative;
     background-color: #f2f2f2;
 }
-.other-section3{
-    position: relative;
-    background-color: #f2f2f2;
-    height: 100vh;
-}
+
 
 .doublewave{
     position: absolute;
@@ -377,14 +374,36 @@ footer{
     margin-top: 20%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .project-color {
+        text-align: center;
     }
-  }
+
+    h3 {
+        font-size: 1.55rem;
+    }
+
+    label strong{
+        color:white
+    }
+
+    .list-menu {
+        border: 1px solid black;
+        background: white;
+    }
+
+    .menutitle {
+        top: 0px;
+        font-weight: bold;
+        padding: .5rem 1rem;
+        display: block;
+        color: #261d84;
+    }
+
+    .menutitle1 {
+        top: 0px;
+    }
+}
