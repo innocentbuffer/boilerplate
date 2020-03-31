@@ -86,12 +86,14 @@
         .goldjourney {
             position: relative;
             z-index: 16;
-            top: 0px;
+            top: -30px;
             width: 100%;
         }
+
         .bronzelibrary, .silverlibrary {
             top: 0px;
         }
+
         .other-section3 {
             background-color: #f2f2f2;
         }
@@ -284,27 +286,27 @@
                     <div class="silverlibrary-mobile d-block d-md-none">
                         <img src="images/items/library.png" class="silverlibrary-img" style="width:65%;margin-left:40%" alt="">
                         <div class="silverjourney-mobile">
-                            <button class="btn bg-white silverjourney-btn-mobile">Start your journey</button>
+                            <button class="btn bg-white silverjourney-btn-mobile ">Start your journey</button>
                         </div>
                     </div>
                 </div>
                 <div class="formd">
                     <div class="goldlibrary d-none d-md-block">
-                        <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:30%;display:block" alt="">
+                        <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:50%;display:block" alt="">
                         <div class="goldjourney">
-                            <button class="btn d-block mx-auto bg-white goldjourney-btn">Start your journey</button>
+                            <button class="btn d-block mx-auto bg-white goldjourney-btn p-3 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                     <div class="bronzelibrary d-none d-md-block">
-                        <img src="images/items/library.png" class="bronzelibrary-img" style="width:25%;margin-left:20%" alt="">
+                        <img src="images/items/library.png" class="bronzelibrary-img" style="width:45%;margin-left:10px" alt="">
                         <div class="bronzejourney">
-                            <button class="btn bg-white bronzejourney-btn">Start your journey</button>
+                            <button class="btn bg-white bronzejourney-btn p-3 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                     <div class="silverlibrary d-none d-md-block">
-                        <img src="images/items/library.png" class="silverlibrary-img" style="width:25%;margin-left:55%" alt="">
+                        <img src="images/items/library.png" class="silverlibrary-img" style="width:45%;margin-left:55%" alt="">
                         <div class="silverjourney">
-                            <button class="btn bg-white silverjourney-btn">Start your journey</button>
+                            <button class="btn bg-white silverjourney-btn p-3 shadow-lg">Start your journey</button>
                         </div>
                     </div>
                 </div>

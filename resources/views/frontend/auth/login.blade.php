@@ -73,7 +73,7 @@
                                         <div class="col-6 text-right">
                                             @if (Route::has('frontend.auth.password.email'))
                                                 <a class="btn btn-link py-0" href="{{ route('frontend.auth.password.email') }}">
-                                                    Forgot Your Password
+                                                    Forgot Password
                                                 </a>
                                             @endif
                                         </div>

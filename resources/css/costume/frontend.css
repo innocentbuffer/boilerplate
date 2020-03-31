@@ -273,17 +273,24 @@ label{
     margin-left: 16%;
 }
 
+.goldjourney-btn{
+    font-size: 20px;
+}
+
 .silverjourney-btn,.bronzejourney-btn, .goldjourney-btn{
     font-family: "Raleway";
     font-weight: bold;
+    border-radius: 20px;
+    font-weight: 900;
+    color: #0a023a;
 }
 
 .bronzejourney-btn{
-    margin-left: 16%;
+    margin-left: 2%;
 }
 
 .silverjourney-btn{
-    margin-left: 72%;
+    margin-left: 83%;
 }
 
 .qoutetext{
