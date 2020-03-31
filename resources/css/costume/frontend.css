@@ -363,13 +363,14 @@ footer{
     width: 100%;
 }
 
-.bronzejourney-btn-mobile {
-    margin-left: 4%;
+.bronzejourney-btn-mobile, .silverjourney-btn-mobile {
+    border-radius: 20px;
+    font-size: 20px;
+    color: #0a023a;
+    font-weight: 900;
 }
 
-.silverjourney-btn-mobile{
-    margin-left: 60%;
-}
+
 .silverjourney-mobile {
     position: relative;
     z-index: 16;

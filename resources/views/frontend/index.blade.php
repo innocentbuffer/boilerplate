@@ -67,7 +67,7 @@
             overflow-x: hidden;
         }
         .silverlibrary-mobile {
-            top: -322px;
+            top: 0px;
             overflow-x: hidden;
         }
         .goldlibrary, .bronzelibrary, .silverlibrary {
@@ -272,21 +272,21 @@
             <div class="doublewave">
                 <div class="forsm">
                     <div class="goldlibrary-mobile d-block d-md-none">
-                        <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:70%;display:block" alt="">
+                        <img src="images/items/library.png" class="goldlibrary-img mx-auto" style="width:100%;display:block" alt="">
                         <div class="goldjourney-mobile">
-                            <button class="btn d-block mx-auto bg-white goldjourney-btn">Start your journey</button>
+                            <button class="btn d-block mx-auto bg-white goldjourney-btn p-3 shadow">Start your journey</button>
                         </div>
                     </div>
                     <div class="bronzelibrary-mobile d-block d-md-none">
-                        <img src="images/items/library.png" class="bronzelibrary-img" style="width:65%;margin-left:-4%" alt="">
+                        <img src="images/items/library.png" class="bronzelibrary-img mx-auto" style="width:100%" alt="">
                         <div class="bronzejourney-mobile">
-                            <button class="btn bg-white bronzejourney-btn-mobile">Start your journey</button>
+                            <button class="btn bg-white bronzejourney-btn-mobile d-block mx-auto p-3 shadow">Start your journey</button>
                         </div>
                     </div>
                     <div class="silverlibrary-mobile d-block d-md-none">
-                        <img src="images/items/library.png" class="silverlibrary-img" style="width:65%;margin-left:40%" alt="">
+                        <img src="images/items/library.png" class="silverlibrary-img mx-auto" style="width:100%" alt="">
                         <div class="silverjourney-mobile">
-                            <button class="btn bg-white silverjourney-btn-mobile ">Start your journey</button>
+                            <button class="btn bg-white silverjourney-btn-mobile d-block mx-auto p-3 shadow">Start your journey</button>
                         </div>
                     </div>
                 </div>
