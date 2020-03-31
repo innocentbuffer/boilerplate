@@ -1620,7 +1620,7 @@ namespace Illuminate\Support\Facades {
         {
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
                         /** @var \App\Console\Kernel $instance */
-                        $instance->bootstrap();
+                        return $instance->bootstrap();
         }
         
         /**
@@ -1634,7 +1634,7 @@ namespace Illuminate\Support\Facades {
         {
             //Method inherited from \Illuminate\Foundation\Console\Kernel            
                         /** @var \App\Console\Kernel $instance */
-                        $instance->setArtisan($artisan);
+                        return $instance->setArtisan($artisan);
         }
          
     }
