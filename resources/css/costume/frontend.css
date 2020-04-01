@@ -51,6 +51,7 @@
 #navbarSupportedContent{
     font-family: 'Seravek Light';
 }
+
 .menutitle{
     position: relative;
     font-size: 18px;
@@ -62,6 +63,12 @@
     display: block;
     color: white;
 }
+
+.menutitle:hover{
+    text-decoration: none;
+    color: #261d84;
+}
+
 .menutitle1{
     position: relative;
     font-size: 18px;
@@ -154,8 +161,9 @@ label{
     height: 260px;
 }
 
-.other-section{
+.other-section {
     position: relative;
+    /* height: 100vh; */
     background-color: #f2f2f2;
 }
 .other-section2{
@@ -163,13 +171,26 @@ label{
     background-color: #f2f2f2;
 }
 
-
-.doublewave{
-    position: absolute;
-    top: 320px;
+.other-section3 {
     background-color: #f2f2f2;
 }
-.wavedown{
+
+
+.doublewave {
+    position: relative;
+    background: url(../images/items/doublewave.png) no-repeat center;
+    background-size: cover;
+    top: -16px;
+    background-size: 100% 100%;
+    background-color: #f2f2f2;
+}
+
+.wavedown {
+    position: relative;
+    background: url(../images/items/wavedown.png) no-repeat center;
+    background-size: cover;
+    top: -16px;
+    background-size: 100% 100%;
     background-color: #f2f2f2;
 }
 
@@ -198,8 +219,8 @@ label{
     top: 770px;
 }
 
-.trusted{
-    position: absolute;
+.trusted {
+    position: relative;
     top: 0px;
     text-align: center;
     width: 100%;
@@ -208,16 +229,23 @@ label{
     font-weight: bold;
 }
 
-.goldlibrary,.bronzelibrary,.silverlibrary{
-    position: absolute;
-    width:100%
+.goldlibrary, .bronzelibrary, .silverlibrary {
+    position: relative;
+    width: 100%;
 }
-.goldlibrary{
-    top:170px;
+
+.bronzelibrary, .silverlibrary {
+    position: absolute;
+    width: 100%;
+}
+
+.goldlibrary {
+    top: -40px;
     z-index: 16;
 }
-.bronzelibrary,.silverlibrary{
-    top:210px
+
+.bronzelibrary, .silverlibrary {
+    top: 0px;
 }
 
 .start-journey{
@@ -247,11 +275,11 @@ label{
     height: 100vh;
 }
 
-.goldjourney{
+.goldjourney {
     position: relative;
     z-index: 16;
     top: -30px;
-    width:100%
+    width: 100%;
 }
 
 .bronzejourney{
@@ -292,18 +320,27 @@ label{
     margin-left: 85%;
 }
 
-.qoutetext{
-    position: absolute;
-    top: 125px;
+.qoutetext {
+    position: relative;
+    top: -220px;
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 1em;
+    font-size: .9em;
     font-family: "Raleway";
 }
 
-.commenter{
-    position: absolute;
-    top: 360px;
+.qoutetext-mobile {
+    position: relative;
+    top: -160px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: .8em;
+    font-family: "Raleway";
+}
+
+.commenter {
+    position: relative;
+    top: -150px;
     padding-left: 26%;
 }
 
@@ -367,12 +404,13 @@ footer{
     margin-top: 40%;
 }
 
-.goldlibrary-mobile{
-    top: 102px;
+.goldlibrary-mobile {
+    top: 0px;
     z-index: 16;
 }
+
 .goldlibrary-mobile, .bronzelibrary-mobile, .silverlibrary-mobile {
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 .goldjourney-mobile {
@@ -383,7 +421,7 @@ footer{
 }
 
 .bronzelibrary-mobile, .silverlibrary-mobile{
-    top: 415px;
+    top: 0px;
     overflow-x: hidden;
 }
 
@@ -434,6 +472,11 @@ footer{
         background: white;
     }
 
+    .bluemeaning{
+        word-spacing: 1px;
+        letter-spacing: 2px;
+    }
+
     .menutitle {
         top: 0px;
         font-weight: bold;
@@ -451,5 +494,37 @@ footer{
     }
     .moon-img{
         width: 25%;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 731px) and (orientation: landscape) {
+
+    .banner-text-child {
+        top: 150px;
+    }
+            
+
+    .form-home {
+        top: 300px;
+    }
+    .qoutetext-mobile {
+        top: -240px;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 823px) and (orientation: landscape) {
+
+    .banner-text-child {
+        top: 150px;
+    }
+            
+
+    .form-home {
+        top: 300px;
+    }
+    .qoutetext-mobile {
+        top: -240px;
+        font-size: 1em;
     }
 }
