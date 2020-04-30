@@ -28,7 +28,7 @@
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-webpack-plugin": "^2.4.2",
         "jest": "^24.8.0",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "laravel-mix": "^5.0.1",
         "laravel-mix-imagemin": "^1.0.3",
         "lodash": "^4.17.13",
